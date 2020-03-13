@@ -1,0 +1,12 @@
+{
+   "author": "Rick Tu",
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "https://www.overleaf.com/project/*" ]
+   } ],
+   "web_accessible_resources" : ["injection.js"],
+   "homepage_url": "https://github.com/ricktu288/overleaf-taiwanese-autocomplete",
+   "manifest_version": 2,
+   "name": "Overleaf Taiwanese Autocomplete",
+   "version": "0.1"
+}
